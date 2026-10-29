@@ -23,14 +23,14 @@ export const friendsPageConfig: FriendsPageConfig = {
 // 友链配置
 export const friendsConfig: FriendLink[] = [
 	{
-		title: "夏夜流萤",
-		imgurl:
-			"https://weavatar.com/avatar/d252655d40d6874417a720bad0a6c5f77f8f6a1fd2f882f8f338402dc37e4190?s=640",
-		desc: "飞萤之火自无梦的长夜亮起，绽放在终竟的明天。",
-		siteurl: "https://blog.cuteleaf.cn",
+		// 示例条目：换成你朋友的站点信息，把 enabled 改成 true 才会显示
+		title: "示例站点",
+		imgurl: "https://example.com/avatar.png",
+		desc: "这里写对方的站点描述。",
+		siteurl: "https://example.com",
 		tags: ["Blog"],
 		weight: 10, // 权重，数字越大排序越靠前
-		enabled: true, // 是否启用
+		enabled: false, // 是否启用
 	},
 	{
 		title: "Firefly Docs",

@@ -146,9 +146,9 @@ export const booknavConfig: BooknavGroup[] = [
 				weight: 10,
 			},
 			{
-				title: "夏夜流萤",
-				url: "https://blog.cuteleaf.cn",
-				desc: "飞萤之火自无梦的长夜亮起",
+				title: "Astro 文档",
+				url: "https://docs.astro.build",
+				desc: "Astro 官方文档",
 				weight: 9,
 			},
 		],
